@@ -1,0 +1,33 @@
+div.counter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b6f91;
+    color: white;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.counter-button {
+    border: none;
+    outline: none;
+    padding: .5rem .9rem;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.stop-counter {
+    border: none;
+    outline: none;
+    padding: .5rem .9rem;
+    text-align: center;
+    background-color: rgba(231, 10, 10, 0.649);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
